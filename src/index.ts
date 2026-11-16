@@ -83,7 +83,8 @@ server.tool(
   }
 );
 
+await server.listen(3000);
 export default server;
 
-await server.listen(3000);
+
 
