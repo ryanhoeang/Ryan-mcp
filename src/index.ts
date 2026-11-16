@@ -83,8 +83,9 @@ server.tool(
   }
 );
 
+console.log("Starting MCP server...");
 await server.listen(3000);
+console.log("MCP listen() completed");
 export default server;
-
 
 
