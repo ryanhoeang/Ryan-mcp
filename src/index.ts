@@ -84,3 +84,6 @@ server.tool(
 );
 
 export default server;
+
+await server.listen(3000);
+
